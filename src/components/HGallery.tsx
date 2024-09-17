@@ -1,8 +1,7 @@
-import { Box, Typography, useMediaQuery, useTheme } from '@mui/material';
+import { Typography, useMediaQuery } from '@mui/material';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
-import { a } from 'framer-motion/client';
 import { Link } from 'react-router-dom';
 
 type HGalleryItem = {
@@ -19,7 +18,6 @@ export interface HGalleryProps {
 }
 
 function HGallery({ navigation, items, variant = 'default' }: HGalleryProps) {
-  const theme = useTheme();
   const tablet = useMediaQuery('(min-width: 900px)');
   
   return (

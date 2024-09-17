@@ -1,4 +1,4 @@
-import { Box, Link, Paper, Typography } from '@mui/material';
+import { Box, Paper, Typography } from '@mui/material';
 
 export interface ImageSnippetProps {
     alt?: string,
