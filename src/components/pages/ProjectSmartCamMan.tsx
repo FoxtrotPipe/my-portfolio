@@ -24,7 +24,7 @@ function ProjectSmartCamMan() {
                     py={1}
                 >
                     <Chip label='Course project'/>
-                    <Chip label='ECE'/>
+                    <Chip label='Embedded system'/>
                     <Chip label='Robotics'/>
                 </Box>}
                 center

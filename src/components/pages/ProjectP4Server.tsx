@@ -20,7 +20,6 @@ function ProjectP4Server() {
                     py={1}
                 >
                     <Chip label='Homelab'/>
-                    <Chip label='Self-learn from scratch'/>
                     <Chip label='Linux'/>
                     <Chip label='Source control'/>
                 </Box>}

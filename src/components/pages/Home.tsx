@@ -1,9 +1,10 @@
 import { Box, Chip } from '@mui/material';
 
-import proj1 from '../../assets/projects/nlu-in-rts-game/thumbnail.png';
-import proj2 from '../../assets/projects/smart-cam-man/thumbnail.jpg';
-import proj3 from '../../assets/projects/p4-server/thumbnail.png';
-import proj4 from '../../assets/projects/homelab-web/thumbnail.png';
+import projNluInRtsGame from '../../assets/projects/nlu-in-rts-game/thumbnail.png';
+import projSmartCamMan from '../../assets/projects/smart-cam-man/thumbnail.jpg';
+import projBasys3Fpga from '../../assets/projects/basys3-fpga/thumbnail.png';
+import projP4Server from '../../assets/projects/p4-server/thumbnail.png';
+import projHomelabWeb from '../../assets/projects/homelab-web/thumbnail.png';
 import cleaning from '../../assets/jobs/growgreen/clean.jpg';
 import assembling from '../../assets/jobs/growgreen/assemble.jpg';
 
@@ -39,10 +40,11 @@ function Home() {
             <HGallerySection
                 navigation
                 items={[
-                    { img: proj1, title: 'Final year project - Natural language command & controls in real-time strategy game', url: '/nlu-in-rts-game'},
-                    { img: proj2, title: '"Smart cam man" face-tracking robot', url: '/smart-cam-man'},
-                    { img: proj3, title: 'Homelab Perforce server on Linux virtual machine', url: '/p4-server'},
-                    { img: proj4, title: 'Homelab web design project', url: '/homelab-web'}
+                    { img: projNluInRtsGame, title: 'Final year project - Natural language command & controls in real-time strategy game', url: '/nlu-in-rts-game'},
+                    { img: projSmartCamMan, title: '"Smart cam man" face-tracking robot', url: '/smart-cam-man'},
+                    { img: projBasys3Fpga, title: 'Sequence detector', url:'/seq-detector'},
+                    { img: projP4Server, title: 'Homelab Perforce server on Linux virtual machine', url: '/p4-server'},
+                    { img: projHomelabWeb, title: 'Homelab web design project', url: '/homelab-web'}
                 ]}
                 variant='tall'
             />
@@ -113,8 +115,8 @@ function Home() {
                             subtitle='Skills (Summary)'
                             content={<ul>
                                 <li>OOP - Cpp / C# / Python</li>
-                                <li>Microcontroller programming - Arduino / STM32</li>
-                                <li>IoT design softwares - PSpice / Vivado / STM32Cube</li>
+                                <li>Microcontroller programming - Arduino / STM32 / Xilinx Basys 3</li>
+                                <li>IoT design softwares - PSpice / STM32Cube / Xilinx Vivado</li>
                                 <li>Web technologies - HTML / CSS / JS / TS</li>
                             </ul>}
                         />
