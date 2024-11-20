@@ -3,7 +3,7 @@ import { Box, Chip } from '@mui/material';
 import projNluInRtsGame from '../../assets/projects/nlu-in-rts-game/thumbnail.png';
 import projSmartCamMan from '../../assets/projects/smart-cam-man/thumbnail.jpg';
 import projBasys3Fpga from '../../assets/projects/basys3-fpga/thumbnail.png';
-import projP4Server from '../../assets/projects/p4-server/thumbnail.png';
+// import projP4Server from '../../assets/projects/p4-server/thumbnail.png';
 import projHomelabWeb from '../../assets/projects/homelab-web/thumbnail.png';
 import cleaning from '../../assets/jobs/growgreen/clean.jpg';
 import assembling from '../../assets/jobs/growgreen/assemble.jpg';
@@ -25,8 +25,7 @@ function Home() {
                     gap={1}
                     py={1}
                 >
-                    <Chip label='Creative solution enthusiast'/>
-                    <Chip label='Game development enthusiast'/>
+                    <Chip label='Game design enthusiast'/>
                     <Chip label='ECE graduate'/>
                 </Box>}
                 center
@@ -43,7 +42,7 @@ function Home() {
                     { img: projNluInRtsGame, title: 'Final year project - Natural language command & controls in real-time strategy game', url: '/nlu-in-rts-game'},
                     { img: projSmartCamMan, title: '"Smart cam man" face-tracking robot', url: '/smart-cam-man'},
                     { img: projBasys3Fpga, title: 'Sequence detector', url:'/seq-detector'},
-                    { img: projP4Server, title: 'Homelab Perforce server on Linux virtual machine', url: '/p4-server'},
+                    // { img: projP4Server, title: 'Homelab Perforce server on Linux virtual machine', url: '/p4-server'},
                     { img: projHomelabWeb, title: 'Homelab web design project', url: '/homelab-web'}
                 ]}
                 variant='tall'
