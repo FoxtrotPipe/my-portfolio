@@ -1,6 +1,7 @@
 import { Box, Chip, Typography } from '@mui/material';
 
 import demo from '../../assets/projects/web-appointment-system/demo.gif';
+import doc from '../../assets/projects/web-appointment-system/doc.jpg';
 
 import PureTextSection from '../sections/PureTextSection';
 import Wrapper from '../Wrapper';
@@ -56,6 +57,12 @@ function ProjectWebAppointmentSystem() {
                     alt='Demo of the appointment system'
                     src={demo}
                     description='A demo clip of the appointment system'
+                    maxWidth='500px'
+                />
+                <ImageSection
+                    alt='Glimpse of the system documentation that I wrote years ago'
+                    src={doc}
+                    description='Glimpse of the system documentation that I wrote years ago'
                     maxWidth='500px'
                 />
                 <PureTextSection
