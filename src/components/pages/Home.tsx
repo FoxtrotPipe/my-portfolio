@@ -8,6 +8,7 @@ import projWebAppointmentSystem from '../../assets/projects/web-appointment-syst
 import projHomelabWeb from '../../assets/projects/homelab-web/thumbnail.png';
 import cleaning from '../../assets/jobs/growgreen/clean.jpg';
 import assembling from '../../assets/jobs/growgreen/assemble.jpg';
+import webapp from '../../assets/jobs/hkust/demo.gif';
 
 import PureTextSection from '../sections/PureTextSection';
 import ImageSection from '../sections/ImageSection';
@@ -61,9 +62,8 @@ function Home() {
                     content={<>
                         I've worked in this summer job for 3 months as intern (Jun 2023 – Sep 2023). Then I was hired as part-time for 9 more months (Sep 2023 – May 2024)
                         <ul>
-                            <li>Learn the structure of embed products of the company within <span className='stats'>2</span> weeks</li>
-                            <li>Diagnose faults in embed products and repair them. Repaired water pumps, touchpads, sensors & LEDs of <span className='stats'>10+</span> embed products</li>
-                            <li>Get my hands dirty, such as clean PCB & solder iron</li>
+                            <li>Develop browser game code with React.js & Phaser web game engine</li>
+                            <li>Assist in consumer electronic product repair & fault diagnosis</li>
                         </ul>
                     </>}
                     variant='contained'
@@ -82,13 +82,32 @@ function Home() {
                     title='Web Developer (Intern)'
                     subtitle='@ Navy FAB Shopify Branding Agency'
                     content={<>
-                        I worked this job for 3 months in summer (Jun 2022 – Sep 2022). This was my first intern job.
+                        I worked this job for 3 months in summer (Jun 2022 – Sep 2022)
                         <ul>
-                            <li>Learn the basics of source control & Shopify framework within <span className='stats'>1</span> month</li>
-                            <li>Collaborated in a tech team of <span className='stats'>4+</span> people to write frontend code using SourceTree & Git</li>
+                            <li>Implement features & functionality for ecommerce webpages of business clients, mainly with JS libraries, including jQuery & fetch API</li>
+                            <li>Collaborate with development team to write frontend code using SourceTree & Git</li>
                         </ul>
                     </>}
                     variant='contained'
+                />
+                <PureTextSection
+                    title='IT Intern'
+                    subtitle='@ HKUST Academic Registry'
+                    content={<>
+                        I worked this job for 3 months (Jul 2021 – Sep 2021). Then I was hired as part-time for ~6 more months (Oct 2021 - May 2022). This is my first intern job.
+                        <ul>
+                            <li>Implement features & functionality for ecommerce webpages of business clients, mainly with JS libraries, including jQuery & fetch API</li>
+                            <li>Collaborate with development team to write frontend code using SourceTree & Git</li>
+                        </ul>
+                    </>}
+                    variant='contained'
+                />
+                <ImageSection
+                    src={webapp}
+                    description={<>
+                        A glimpse of the web app I made during the job. It has been used by Academic Registry to handle diploma collection appointment starting from 2021 up to now (as of writing in 2024). 
+                    </>}
+                    maxWidth='500px'
                 />
                 <PureTextSection
                     id='about'
