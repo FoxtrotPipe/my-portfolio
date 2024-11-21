@@ -4,6 +4,7 @@ import projNluInRtsGame from '../../assets/projects/nlu-in-rts-game/thumbnail.pn
 import projSmartCamMan from '../../assets/projects/smart-cam-man/thumbnail.jpg';
 import projBasys3Fpga from '../../assets/projects/basys3-fpga/thumbnail.png';
 // import projP4Server from '../../assets/projects/p4-server/thumbnail.png';
+import projWebAppointmentSystem from '../../assets/projects/web-appointment-system/thumbnail.jpg';
 import projHomelabWeb from '../../assets/projects/homelab-web/thumbnail.png';
 import cleaning from '../../assets/jobs/growgreen/clean.jpg';
 import assembling from '../../assets/jobs/growgreen/assemble.jpg';
@@ -43,6 +44,7 @@ function Home() {
                     { img: projSmartCamMan, title: '"Smart cam man" face-tracking robot', url: '/smart-cam-man'},
                     { img: projBasys3Fpga, title: 'Sequence detector', url:'/seq-detector'},
                     // { img: projP4Server, title: 'Homelab Perforce server on Linux virtual machine', url: '/p4-server'},
+                    { img: projWebAppointmentSystem, title: 'Diploma collection appointment web app', url: '/web-app'},
                     { img: projHomelabWeb, title: 'Homelab web design project', url: '/homelab-web'}
                 ]}
                 variant='tall'

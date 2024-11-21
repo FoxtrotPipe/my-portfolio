@@ -8,6 +8,7 @@ import Home from './components/pages/Home.tsx'
 import ProjectNluInRtsGame from './components/pages/ProjectNluInRtsGame.tsx'
 import ProjectSmartCamMan from './components/pages/ProjectSmartCamMan.tsx'
 // import ProjectP4Server from './components/pages/ProjectP4Server.tsx'
+import ProjectWebAppointmentSystem from './components/pages/ProjectWebAppointmentSystem.tsx';
 import ProjectHomelabWeb from './components/pages/ProjectHomelabWeb.tsx'
 import ProjectSequenceDetector from './components/pages/ProjectSequenceDetector.tsx'
 
@@ -21,6 +22,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
           <Route path='smart-cam-man' element={<ProjectSmartCamMan/>}/>
           <Route path='seq-detector' element={<ProjectSequenceDetector/>}/>
           {/* <Route path='p4-server' element={<ProjectP4Server/>}/> */}
+          <Route path='web-app' element={<ProjectWebAppointmentSystem/>}/>
           <Route path='homelab-web' element={<ProjectHomelabWeb/>}/>
         </Route>
       </Routes>
