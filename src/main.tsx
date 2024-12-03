@@ -20,7 +20,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
           <Route index element={<Home/>}/>
           <Route path='nlu-in-rts-game' element={<ProjectNluInRtsGame/>}/>
           <Route path='smart-cam-man' element={<ProjectSmartCamMan/>}/>
-          <Route path='seq-detector' element={<ProjectSequenceDetector/>}/>
+          {/* <Route path='seq-detector' element={<ProjectSequenceDetector/>}/> */}
           {/* <Route path='p4-server' element={<ProjectP4Server/>}/> */}
           <Route path='web-app' element={<ProjectWebAppointmentSystem/>}/>
           <Route path='homelab-web' element={<ProjectHomelabWeb/>}/>

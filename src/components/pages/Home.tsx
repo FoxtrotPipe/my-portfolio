@@ -28,6 +28,7 @@ function Home() {
                     py={1}
                 >
                     <Chip label='Game design enthusiast'/>
+                    <Chip label='Web devleoper'/>
                     <Chip label='ECE graduate'/>
                 </Box>}
                 center
@@ -42,11 +43,11 @@ function Home() {
                 navigation
                 items={[
                     { img: projNluInRtsGame, title: 'Final year project - Natural language command & controls in real-time strategy game', url: '/nlu-in-rts-game'},
-                    { img: projSmartCamMan, title: '"Smart cam man" face-tracking robot', url: '/smart-cam-man'},
-                    { img: projBasys3Fpga, title: 'Sequence detector', url:'/seq-detector'},
-                    // { img: projP4Server, title: 'Homelab Perforce server on Linux virtual machine', url: '/p4-server'},
                     { img: projWebAppointmentSystem, title: 'Diploma collection appointment web app', url: '/web-app'},
-                    { img: projHomelabWeb, title: 'Homelab web design project', url: '/homelab-web'}
+                    { img: projHomelabWeb, title: 'Homelab web design project', url: '/homelab-web'},
+                    { img: projSmartCamMan, title: '"Smart cam man" face-tracking robot', url: '/smart-cam-man'}
+                    // { img: projBasys3Fpga, title: 'Sequence detector', url:'/seq-detector'},
+                    // { img: projP4Server, title: 'Homelab Perforce server on Linux virtual machine', url: '/p4-server'},           
                 ]}
                 variant='tall'
             />
