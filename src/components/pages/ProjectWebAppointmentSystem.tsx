@@ -31,7 +31,7 @@ function ProjectWebAppointmentSystem() {
                     id='background'
                     title='Background'
                     content={<>
-                        This is a web app I developed as an IT intern under the Academic Registry of HKUST. <br/><br/>
+                        This is a PowerApp web app I developed as an IT intern under the Academic Registry of HKUST. <br/><br/>
                         
                         The department wanted an web app to handle diploma colleciton appointment so it is built for graduates to make appointments on when to collect their diplomas. Within the app, each student can pick time slot of their choosing to collect their diploma.
                     </>}

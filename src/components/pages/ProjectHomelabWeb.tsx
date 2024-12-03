@@ -41,7 +41,7 @@ function ProjectHomelabWeb() {
                     id='background'
                     title='Background'
                     content={<>
-                        This is just a website I coded for fun. I writes about my favourite football matchups & players there. If you feel interested, you can check it out.
+                        This is DIY website I built using React.js & Typescript. I writes about my favourite football matchups & players there. If you feel interested, you can check it out.
                     </>}
                 />
                 <PureTextSection

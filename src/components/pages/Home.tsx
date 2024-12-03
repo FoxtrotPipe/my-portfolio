@@ -2,7 +2,7 @@ import { Box, Chip } from '@mui/material';
 
 import projNluInRtsGame from '../../assets/projects/nlu-in-rts-game/thumbnail.png';
 import projSmartCamMan from '../../assets/projects/smart-cam-man/thumbnail.jpg';
-import projBasys3Fpga from '../../assets/projects/basys3-fpga/thumbnail.png';
+// import projBasys3Fpga from '../../assets/projects/basys3-fpga/thumbnail.png';
 // import projP4Server from '../../assets/projects/p4-server/thumbnail.png';
 import projWebAppointmentSystem from '../../assets/projects/web-appointment-system/thumbnail.jpg';
 import projHomelabWeb from '../../assets/projects/homelab-web/thumbnail.png';
