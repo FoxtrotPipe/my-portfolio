@@ -36,15 +36,15 @@ function Home() {
             />
             <PureTextSection
                 id='projects'
-                title='Side projects & homelabs'
-                content='A collection of stuffs I built, including course projects, side projects & homelabs. Click on them to see the details!'
+                title='Projects & DIYs'
+                content='A collection of stuffs I built, including course projects, on-the-job projects & DIYs. Click on them to see the details!'
             />
             <HGallerySection
                 navigation
                 items={[
-                    { img: projNluInRtsGame, title: 'Final year project - Natural language command & controls in real-time strategy game', url: '/nlu-in-rts-game'},
+                    { img: projNluInRtsGame, title: 'NLU command & controls in RTS game', url: '/nlu-in-rts-game'},
                     { img: projWebAppointmentSystem, title: 'Diploma collection appointment web app', url: '/web-app'},
-                    { img: projHomelabWeb, title: 'Homelab web design project', url: '/homelab-web'},
+                    { img: projHomelabWeb, title: 'DIY football webpage', url: '/homelab-web'},
                     { img: projSmartCamMan, title: '"Smart cam man" face-tracking robot', url: '/smart-cam-man'}
                     // { img: projBasys3Fpga, title: 'Sequence detector', url:'/seq-detector'},
                     // { img: projP4Server, title: 'Homelab Perforce server on Linux virtual machine', url: '/p4-server'},           

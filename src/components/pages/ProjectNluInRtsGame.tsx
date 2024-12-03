@@ -13,7 +13,7 @@ function ProjectNluInRtsGame() {
         <>
             <PureTextSection
                 title={<Typography variant='h2' fontWeight='bold'>
-                    Natural language command & controls in real-time strategy game
+                    NLU command & controls in RTS game
                 </Typography>}
                 subtitle={<Box 
                     display='flex'

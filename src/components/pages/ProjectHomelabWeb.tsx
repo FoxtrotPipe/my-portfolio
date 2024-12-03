@@ -12,7 +12,7 @@ function ProjectHomelabWeb() {
         <>
             <PureTextSection
                 title={<Typography variant='h2' fontWeight='bold'>
-                    Homelab web design project
+                    DIY Football Webpage
                 </Typography>}
                 subtitle={<Box 
                     display='flex'
