@@ -10,7 +10,7 @@ import ProjectSmartCamMan from './components/pages/ProjectSmartCamMan.tsx'
 // import ProjectP4Server from './components/pages/ProjectP4Server.tsx'
 import ProjectWebAppointmentSystem from './components/pages/ProjectWebAppointmentSystem.tsx';
 import ProjectHomelabWeb from './components/pages/ProjectHomelabWeb.tsx'
-import ProjectSequenceDetector from './components/pages/ProjectSequenceDetector.tsx'
+// import ProjectSequenceDetector from './components/pages/ProjectSequenceDetector.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
