@@ -17,7 +17,7 @@ const title = "Blake Tam";
 const pages = [
   // { name: 'Fav matches', url: '/fav-matches' }, { name: 'Best moments', url: '/best-moments' }, { name: 'Fav players', url: '/fav-players' }
   { name: 'About', url: '/#about' }, 
-  { name: 'Projects & Homelabs', url: '/#projects' }, 
+  { name: 'Projects & DIYs', url: '/#projects' }, 
   { name: 'Intern', url: '/#jobs'},
   { name: 'Socials', url: '/#socials' }
 ];

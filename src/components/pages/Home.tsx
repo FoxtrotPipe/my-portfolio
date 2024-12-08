@@ -51,6 +51,13 @@ function Home() {
                 ]}
                 variant='tall'
             />
+            <PureTextSection
+                id='games'
+                title='Games'
+                content={<>
+                    <iframe frameborder="0" src="https://itch.io/embed/3149762?dark=true" width="552" height="167"><a href="https://blaketam.itch.io/the-house">The House: One-button Room Escape Mystery by BlakeTam</a></iframe>
+                </>}
+            />
             <Wrapper width='md'>
                 <PureTextSection
                     id='jobs'
