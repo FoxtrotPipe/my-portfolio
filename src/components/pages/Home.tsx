@@ -28,7 +28,6 @@ function Home() {
                     py={1}
                 >
                     <Chip label='Game design enthusiast'/>
-                    <Chip label='Web devleoper'/>
                     <Chip label='ECE graduate'/>
                 </Box>}
                 center
@@ -70,8 +69,9 @@ function Home() {
                     content={<>
                         I've worked in this summer job for 3 months as intern (Jun 2023 – Sep 2023). Then I was hired as part-time for 9 more months (Sep 2023 – May 2024)
                         <ul>
-                            <li>Develop browser game code with React.js & Phaser web game engine</li>
+                            <li>Develop browser game according to designer requirement w/ React.js & Phaser</li>
                             <li>Assist in consumer electronic product repair & fault diagnosis</li>
+                            <li>Performed ad hoc debugging & user testing duties</li>
                         </ul>
                     </>}
                     variant='contained'
@@ -92,8 +92,8 @@ function Home() {
                     content={<>
                         I worked this job for 3 months in summer (Jun 2022 – Sep 2022)
                         <ul>
-                            <li>Implement features & functionality for ecommerce webpages of business clients, mainly with JS libraries, including jQuery & fetch API</li>
-                            <li>Collaborate with development team to write frontend code using SourceTree & Git</li>
+                            <li>Troubleshoot & resolve technical issues of frontend interface w/ JavaScript</li>
+                            <li>Collaborate with tech team colleagues using SourceTree & Git</li>
                         </ul>
                     </>}
                     variant='contained'
@@ -104,8 +104,8 @@ function Home() {
                     content={<>
                         I worked this job for 3 months (Jul 2021 – Sep 2021). Then I was hired as part-time for ~6 more months (Oct 2021 - May 2022). This is my first intern job.
                         <ul>
-                            <li>Implement features & functionality for ecommerce webpages of business clients, mainly with JS libraries, including jQuery & fetch API</li>
-                            <li>Collaborate with development team to write frontend code using SourceTree & Git</li>
+                            <li>Develop diploma collection appointment web app using Microsoft PowerApps</li>
+                            <li>Provide technical support & maintenance of the system upon its launch</li>
                         </ul>
                     </>}
                     variant='contained'
@@ -125,28 +125,12 @@ function Home() {
                 <PureTextSection
                     title='Blake Tam'
                     content={<>
-                        A HKUST ELEC fresh graduate who’s not afraid to learn and try out crazy ideas. 
+                        Game Jam goer, game development enthusiast and UST fresh graduate.
                         <TextSnippet
                             subtitle='Education'
                             content={<>
                                 Hong Kong University of Science & Technology, BEng in Electronic Engineering, Minor in IT
-                                <ul>
-                                    <li>OOP & Data Structure</li>
-                                    <li>Signal Processing & Modulation</li>
-                                    <li>Frequency Filter Design</li>
-                                    <li>Op Amp & Diode Circuits</li>
-                                </ul>
-                                (Transcript only provided upon request)
                             </>}
-                        />
-                        <TextSnippet
-                            subtitle='Skills (Summary)'
-                            content={<ul>
-                                <li>OOP - Cpp / C# / Python</li>
-                                <li>Microcontroller programming - Arduino / STM32 / Xilinx Basys 3</li>
-                                <li>IoT design softwares - PSpice / STM32Cube / Xilinx Vivado</li>
-                                <li>Web technologies - HTML / CSS / JS / TS</li>
-                            </ul>}
                         />
                         <TextSnippet
                             subtitle='Hobbies & Others'
