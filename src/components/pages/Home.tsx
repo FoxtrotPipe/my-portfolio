@@ -54,7 +54,8 @@ function Home() {
                 id='games'
                 title='Games'
                 content={<>
-                    <iframe frameBorder="0" src="https://itch.io/embed/3149762?dark=true" width="552" height="167"><a href="https://blaketam.itch.io/the-house">The House: One-button Room Escape Mystery by BlakeTam</a></iframe>
+                    <iframe frameborder="0" src="https://itch.io/embed/3293373?bg_color=ece9d0&amp;fg_color=000000&amp;link_color=002387&amp;border_color=b6b189" width="552" height="167"><a href="https://blaketam.itch.io/dr-voltagestein">Dr. Voltagestein by BlakeTam, SukeBancho, Toasty</a></iframe>
+                    <iframe frameborder="0" src="https://itch.io/embed/3149762?dark=true" width="552" height="167"><a href="https://blaketam.itch.io/the-house">The House: One-button Room Escape Mystery by BlakeTam</a></iframe>
                 </>}
             />
             <Wrapper width='md'>
